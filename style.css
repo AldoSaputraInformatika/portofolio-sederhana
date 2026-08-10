@@ -305,8 +305,9 @@ body {
         height: 80px;
         background-image: url("Gambar/FotoPRP.jpg");
         background-size: cover;
-        border-radius: 20px;
+        border-radius: 50%;
         border: 2px solid black;
+
     }
 
     .container .toptext h1 {
