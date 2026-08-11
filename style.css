@@ -135,6 +135,11 @@ body {
     color: #eaeaea;
 }
 
+.container .main .kiri .kotaksatu h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .container .main .kiri .kotaksatu .k1 {
     display: flex;
     align-items: center;
