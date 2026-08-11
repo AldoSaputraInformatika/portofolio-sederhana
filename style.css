@@ -95,6 +95,8 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
 }
 
 
@@ -145,7 +147,7 @@ body {
 }
 
 .container .main .kiri .kotaksatu .k1:hover {
-    width: 65%;
+    width: 76%;
     height: 100px;
     padding: 5px;
 }
