@@ -7,6 +7,7 @@ body {
     font-family: system-ui;
     line-height: 24px;
     background: #eaeaea;
+    overflow-x:hidden ;
 }
 
 .container {
@@ -296,17 +297,22 @@ body {
     }
 }
 
+.container .link .hamburger{
+    display: none;
+}
+
 
 /*HANDPHONE*/
 @media (max-width: 512px) {
     .container nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         height: 90px;
         flex-basis: 100%;
         background-color: white;
         padding: 10px;
+        position: relative;
     }
 
     .container nav .toptext {
@@ -323,6 +329,65 @@ body {
         display: none;
         width: 0;
         height: 0;
+    }
+
+
+    .container nav .link ul{
+        position: absolute;
+        flex-direction: column;
+        right: 0;
+        background-color: #222121;
+        top: 0;
+        height: 100vh;
+        justify-content: space-evenly;
+        text-align: center;
+        transform: translateX(100%);
+        transition: all 0.3s ;
+    }
+
+
+
+    .container .link ul.slide{
+        transform: translateX(0);
+    }
+
+    /*JavaScript untuk menambahkan class*/
+    .container .link .hamburger{
+        display: flex;
+    }
+
+    .container .top .link ul li{
+        position: relative;
+    }
+    /*hamburger menu*/
+    .container nav .hamburger{
+        width: 28px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+
+    }
+    .container nav .hamburger span{
+        display: block;
+        width: 100%;
+        height: 5px;
+        background-color: #222121;
+    }
+
+    .container nav .hamburger input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .container nav .hamburger input:checked ~ span{
+        background-color: #bd1919;
     }
 
 }
