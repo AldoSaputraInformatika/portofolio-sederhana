@@ -7,7 +7,7 @@ body {
     font-family: system-ui;
     line-height: 24px;
     background: #eaeaea;
-    overflow-x:hidden ;
+    overflow-x: hidden;
 }
 
 .container {
@@ -101,9 +101,6 @@ body {
 }
 
 
-
-
-
 .container .main .kanan {
     display: flex;
     flex-direction: column;
@@ -136,7 +133,7 @@ body {
     color: #eaeaea;
 }
 
-.container .main .kiri .kotaksatu h3{
+.container .main .kiri .kotaksatu h3 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -158,15 +155,23 @@ body {
     padding: 5px;
 }
 
-.container .main .kiri .kotaksatu .k1:hover .kanan{
+.container .main .kiri .kotaksatu .k1:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k2:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k2:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k3:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k3:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k4:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k4:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k5:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k5:hover .kanan {
     display: flex;
 }
 
@@ -250,10 +255,9 @@ body {
     border-radius: 10px;
 }
 
-.container .main .kiri .kotaksatu .kanan{
+.container .main .kiri .kotaksatu .kanan {
     display: none;
 }
-
 
 
 /*TABLET HINGGA LAPTOP*/
@@ -297,10 +301,13 @@ body {
     }
 }
 
-.container .link .hamburger{
+.container .link .hamburger {
     display: none;
 }
 
+body{
+    overflow-x: hidden;
+}
 
 /*HANDPHONE*/
 @media (max-width: 512px) {
@@ -332,7 +339,7 @@ body {
     }
 
 
-    .container nav .link ul{
+    .container nav .link ul {
         position: absolute;
         flex-direction: column;
         right: 0;
@@ -342,25 +349,25 @@ body {
         justify-content: space-evenly;
         text-align: center;
         transform: translateX(100%);
-        transition: all 0.3s ;
+        transition: all 0.3s;
     }
 
 
-
-    .container .link ul.slide{
+    .container .link ul.slide {
         transform: translateX(0);
     }
 
     /*JavaScript untuk menambahkan class*/
-    .container .link .hamburger{
+    .container .link .hamburger {
         display: flex;
     }
 
-    .container .top .link ul li{
+    .container .top .link ul li {
         position: relative;
     }
+
     /*hamburger menu*/
-    .container nav .hamburger{
+    .container nav .hamburger {
         width: 28px;
         height: 20px;
         display: flex;
@@ -370,14 +377,15 @@ body {
         z-index: 1;
 
     }
-    .container nav .hamburger span{
+
+    .container nav .hamburger span {
         display: block;
         width: 100%;
         height: 5px;
         background-color: #222121;
     }
 
-    .container nav .hamburger input{
+    .container nav .hamburger input {
         position: absolute;
         top: 0;
         left: 0;
@@ -387,7 +395,7 @@ body {
         cursor: pointer;
     }
 
-    .container nav .hamburger input:checked ~ span{
+    .container nav .hamburger input:checked ~ span {
         background-color: #bd1919;
     }
 
