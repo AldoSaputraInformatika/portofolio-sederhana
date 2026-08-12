@@ -306,12 +306,13 @@ body {
     display: none;
 }
 
-body{
-    overflow-x: hidden;
-}
 
 /*HANDPHONE*/
 @media (max-width: 512px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .container nav {
         display: flex;
         justify-content: space-between;
