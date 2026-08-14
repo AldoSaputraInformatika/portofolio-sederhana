@@ -372,7 +372,7 @@ body {
         background-color: #222121;
         top: 0;
         height: 100vh;
-        right: 0;translate: 100%;
+        right: 0;
        transition: all 0.3s;
     }
     .link .hidden ul{
@@ -384,7 +384,7 @@ body {
     }
 
     .link .hidden2{
-        translate: 0;
+        display: none;
     }
 }
 
