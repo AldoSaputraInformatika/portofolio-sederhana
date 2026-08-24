@@ -102,9 +102,6 @@ html, body {
 }
 
 
-
-
-
 .container .main .kanan {
     display: flex;
     flex-direction: column;
@@ -126,18 +123,8 @@ html, body {
     border: 2px solid #333333;
 }
 
-.container .footer {
-    background-color: #333333;
-    display: flex;
-    height: 30px;
-    padding: 5px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    color: #eaeaea;
-}
 
-.container .main .kiri .kotaksatu h3{
+.container .main .kiri .kotaksatu h3 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -159,15 +146,23 @@ html, body {
     padding: 5px;
 }
 
-.container .main .kiri .kotaksatu .k1:hover .kanan{
+.container .main .kiri .kotaksatu .k1:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k2:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k2:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k3:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k3:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k4:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k4:hover .kanan {
     display: flex;
-}.container .main .kiri .kotaksatu .k5:hover .kanan{
+}
+
+.container .main .kiri .kotaksatu .k5:hover .kanan {
     display: flex;
 }
 
@@ -251,11 +246,9 @@ html, body {
     border-radius: 10px;
 }
 
-.container .main .kiri .kotaksatu .kanan{
+.container .main .kiri .kotaksatu .kanan {
     display: none;
 }
-
-
 
 /*TABLET HINGGA LAPTOP*/
 @media (min-width: 782px) {
@@ -298,7 +291,7 @@ html, body {
     }
 }
 
-.container .link .hamburger{
+.container .link .hamburger {
     display: none;
 }
 
@@ -331,12 +324,14 @@ html, body {
         width: 0;
         height: 0;
     }
-/*toggle button*/
-    .container .top{
+
+    /*toggle button*/
+    .container .top {
         position: sticky;
         top: 0;
     }
-    .link button{
+
+    .link button {
         width: 40px;
         height: 40px;
         position: relative;
@@ -348,25 +343,26 @@ html, body {
         border: white;
         background-color: #222121;
         cursor: pointer;
-        border-radius:5px;
+        border-radius: 5px;
         transition: all 0.3s;
     }
 
-    .link button div{
+    .link button div {
         width: 60%;
         height: 3px;
         background-color: white;
     }
 
-   .link .hidden{
+    .link .hidden {
         position: fixed;
         background-color: #222121;
         top: 0;
         height: 100%;
         right: 0;
-       transition: all 0.3s;
+        transition: all 0.3s;
     }
-    .link .hidden ul{
+
+    .link .hidden ul {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -374,17 +370,44 @@ html, body {
         height: 100vh;
     }
 
-    .link .hidden2{
+    .link .hidden2 {
         display: none;
     }
 
-    .link .cdss{
+    .link .cdss {
         background-color: white;
     }
 
-    .link .cdss div{
+    .link .cdss div {
         background-color: #222121;
     }
 }
 
+
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #222121;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer .item1{
+    display: flex;
+    align-items: center;
+}
+ .footer ul{
+     list-style: none;
+     display: flex;
+     width: 100%;
+     gap: 30px;
+
+ }
+.footer img {
+    width: 20px;
+    border-radius: 50%;
+}
 
