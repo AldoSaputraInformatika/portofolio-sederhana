@@ -394,17 +394,11 @@ html, body {
     width: 100%;
     padding: 10px;
 }
-
-.footer .item1{
-    display: flex;
-    align-items: center;
-}
  .footer ul{
      list-style: none;
      display: flex;
      width: 100%;
      gap: 30px;
-
  }
 .footer img {
     width: 20px;
